@@ -1,0 +1,100 @@
+/*ESTILOS CSS HEADER*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+header nav{
+	color: white;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	height: 70px;
+	background-color: #2F4F4F;
+}
+header nav ul{
+	color: white;
+	line-height: 70px;
+	text-align: right;
+	padding-right: 80px;
+}
+
+nav ul li a{
+	text-transform: uppercase;
+	color: white;
+}
+
+/*FIRST SECCTION*/
+.img1{
+	background-image: url("../img/header-bg.jpg");
+	height: 600px;
+	background: cover;
+	width: 100%;
+}
+
+section nav{
+	position: relative;
+	text-align: center;
+	justify-content: center;
+	padding-top: 250px;
+	color: white;
+	font-family: "Montserrat"
+}
+
+/*SECOUND SECTIONS*/
+.secound{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: black;
+}
+span {
+	color: white;
+    font-size: 7vw;
+    padding: 10%;
+    border-radius: 50%;
+    margin: 20%;
+    background-color: yellow;
+}
+
+/*TERCERA SECTION*/
+.tercero {
+	background-color: #E0FFFF;
+    padding: 7% 0%;
+    color: black;
+}
+.imgTercero {
+    width: 100%;
+    margin: 15% 0%;
+    
+}
+/*.cabezera .col-md-6{
+	background-color: #FFFFF0;
+}*/
+
+/*CUARTA SECTION*/
+.cuarta{
+	padding: 7%;
+	color: black;
+
+}
+.imgcuarta1 {
+    margin-left: 10%;
+    border-radius: 50%;
+}
+.right4{
+	margin: 10% 0%;
+	text-align: right;
+}
+.padingImg1 {
+    margin: 10% 0%;
+    text-align: left;
+}
+.left4 {
+    margin-top: 3%;
+    text-align: left;
+}
+.padingImg2{
+	text-align: right;
+}
+.imgcuarta2{
+	margin-right: 10%;
+    border-radius: 50%;
+}
